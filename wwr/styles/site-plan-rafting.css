@@ -2,8 +2,10 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:wght@500&display=swap');
-
+.home-title {
+  font-family: 'Montserrat', 'playfair display' sans-serif;
+  font-size: 2em;
+}
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #f5b6a3;
@@ -30,11 +32,17 @@ Fonts are separated by a & */
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
+  background-color: #fcfbfb;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
   max-width: 960px;
-  margin: 0 auto;
-  padding: 4em;
-  font-size: 18px;
+  margin: 0;
+  padding: 0;
   text-align: center;
+}
+.msg {
+  background-color: #7babcc;
+  line-height: 1.5em;
 }
 img {
   display: block;
@@ -47,6 +55,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h2 {
   text-align: center;
+  margin: 0;
 }
 hr {
   height: 3px;
@@ -74,7 +83,7 @@ p {
   text-align: center;
 }
 .colors th {
-  background-color: #999;
+  background-color: #7babcc;
 }
 .colors td{
   width: 25%;
@@ -101,16 +110,18 @@ nav {
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
+  padding: 35px;
 }
 nav  {
   list-style-type: none;
   display: flex;
 }
 nav a {
-  padding:1em;
-  min-width: 120px;
   text-decoration: none;
-  padding: 10px;
+  color: #fcfbfb;
+  text-align: center;
+  padding:35px;
+  min-width: 120px;
 }
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
@@ -161,4 +172,19 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
+}
+.book, .join {
+  background-color: #7babcc;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+.card-img {
+  border: 10px solid #d9c2a3;
+}
+main section img {
+  box-sizing: border-box;
 }
