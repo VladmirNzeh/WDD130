@@ -2,10 +2,10 @@
 /* Activity 1 styles */
 .content1 {
   /* This is the parent of the activity 1 boxes. */
-  justify-content: center;
-  align-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   justify-items: center;
-  align-items: center;
+  gap:20px;
 }
 .red1 { 
   width: 100%; 
@@ -35,10 +35,7 @@
 /* Activity 2 styles */ 
 .content2 {
   /* This is the parent of the activity 2 boxes. */
-  justify-items: center;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
+  display: grid;
    
 }
 .red2 {
@@ -80,10 +77,9 @@
 } 
 /* Activity 3 styles */ 
 .content3 {
-  justify-content: center;
-  align-content: center;
-  justify-items: center;
-  align-items: center;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap:120px;
 }
 .red3 {
   width: 100%; 
