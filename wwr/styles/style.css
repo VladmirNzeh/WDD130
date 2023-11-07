@@ -43,11 +43,6 @@ header{
 .icon{
     width: 80px;
 }
-.msg{
-    background-color: #330c1e;
-    color: azure;
-    line-height: 1.5em;
-}
 nav{
     display: flex;
     justify-content: space-around;
